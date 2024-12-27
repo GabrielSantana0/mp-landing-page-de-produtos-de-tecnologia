@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Nunito';
+    }
+
+    header {
+        background-color: black;
+        color: white;
+    }
+
+    nav {
+        padding: 20px;
+        margin-left: 10px;
+
+    }
+
+    .menuburger {
+        display: flex;
+        display: none;
+        flex-direction: column;
+        padding-top: 25px;
+        padding-left: 80px;
+        font-size: 20px;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu {
+        position: absolute;
+        top: 44px;
+        left: 70px;
+        transform: scale(1.5);
+    }
+
+    .button {
+        display: none;
+        width:  94px;
+        height: 40px;
+        padding: 0px 16px 0px 16px;
+        border-radius: 8px;
+        border: none;
+        gap: 10px;
+        background-color: white;
+        color: black;
+        font-family: Nunito;
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .logo {
+        position: absolute;
+        left: 75%;
+        top: 4.5%;
+    }
+
+    .parte1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 20%;
+    }
+
+    .letraspt1 {
+        padding-right: 50%;
+    }
+
+    .letraspt1 > h3 {
+        padding-bottom: 10%;
+        font-size: 10px;
+        font-weight: 400;
+        color: #9CA3AF;
+
+    }
+    
+    #celularpt1 {
+        transform: scale(1.5);
+        position: absolute;
+        top: 18%;
+        left: 60%;
+    }
+}
