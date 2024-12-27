@@ -3,7 +3,7 @@
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
-        font-family: 'Nunito';
+        font-family: "Palanquin", serif;
     }
 
     header {
@@ -62,25 +62,45 @@
         display: flex;
         justify-content: center;
         padding-top: 20%;
+        font-family: "Palanquin", serif;
     }
 
     .letraspt1 {
-        padding-right: 50%;
+        padding-right: 40%;
     }
 
     .letraspt1 > h3 {
-        padding-bottom: 10%;
-        font-size: 10px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: 300;
         color: #9CA3AF;
-
     }
+
+    .letraspt1 > h2 {
+        font-size: 20px;
+        font-weight: 300;
+        font-size: 43px;
+    }
+
+
     
     #celularpt1 {
-        width: 152.17px;
-        height: 191.01px;
+        object-fit: cover;
+        width: 200px;
+        height: 300px;
         position: absolute;
         top: 18%;
         left: 60%;
+    }
+
+    #pt1botao {
+        font-family: "Palanquin", serif;
+        font-size: 20px;
+        padding-bottom: 10px;
+        background: linear-gradient(91.02deg, #1371EF 21.2%, #E539A2 88.45%);
+        border: none;
+        border-radius: 17px;
+        width: 70%;
+        height: 40px;
+        color: white;
     }
 }
